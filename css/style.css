@@ -274,3 +274,31 @@ header a {
   justify-content: center;
   margin-bottom: 16px;
 }
+
+
+.container-section{
+  width: 100%;
+  max-width: 1200px;
+  border: 1px solid black;
+  margin-top: 60px;
+  justify-items: center;
+  margin: 80px auto;
+
+}
+.pontos-turisticos{
+  display: flex;
+}
+.div-turisticos p{
+  text-align: center;
+  font-size: 1.2rem;
+  border: 1px solid black;
+}
+.div-turisticos h2{
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+.div3{
+  display: flex;
+  justify-content: center;
+}
