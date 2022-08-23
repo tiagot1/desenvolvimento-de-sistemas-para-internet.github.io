@@ -38,3 +38,31 @@ header a {
   gap: 20px;
   margin-left: 20px;
 }
+
+.section-init{
+  width: 100%;
+}
+.init-container{
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.init-texts h1{
+  font-size: 4rem;
+  margin-bottom: 1.4rem;
+}
+.p-short{
+  font-size: 1.6rem;
+}
+.init-agend{
+  display: grid;
+}
+.div-img{
+  grid-column: 2;
+  justify-self: end;
+}
+.div-img img{
+  max-width: 100%;
+}
