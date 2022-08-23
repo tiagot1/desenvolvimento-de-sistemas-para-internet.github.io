@@ -147,3 +147,43 @@ header a {
   font-weight: 500;
   font-size: 1.25rem;
 }
+.main-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.section-tours{
+  max-width: 1200px;
+  border: 1px solid black;
+  
+}
+
+.div-places{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.div-places h2{
+  font-size: 3rem;
+  font-weight: 700;
+}
+.div-places p{
+  font-size: 1.25rem;
+}
+.buttons-tour{
+  display: flex;
+  gap: 20px;
+}
+.buttons-tour button{
+  background-color: #FCF4F7;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 40px;
+}
+.buttons-tour img{
+  border-radius: 40px;
+}
+.div-contrys{
+  display: flex;
+}
