@@ -15,7 +15,9 @@ header{
   padding: 20px 0px;
   margin-bottom: 20px;
 }
-
+.cinza{
+  color: #808080;
+}
 .menu-logo img{
   height: 50px;
 }
@@ -279,7 +281,6 @@ header a {
 .container-section{
   width: 100%;
   max-width: 1200px;
-  border: 1px solid black;
   margin-top: 60px;
   justify-items: center;
   margin: 80px auto;
@@ -292,7 +293,6 @@ header a {
 .div-turisticos p{
   text-align: center;
   font-size: 1.2rem;
-  border: 1px solid black;
   margin: 30px 0;
 }
 .div-turisticos h2{
@@ -305,8 +305,10 @@ header a {
   justify-content: center;
 }
 .card-turistico{
-  border: 1px solid black;
   width: 246px;
+  padding: 5px;
+  background-color: #ffffff;
+  border-radius: 10px;
 }
 .img-turistico img{
   width: 100%;
@@ -316,4 +318,16 @@ header a {
 }
 .space{
   margin: 6px 0px 15px 0px;
+}
+.div-link{
+  display: flex;
+  margin: 40px auto;
+  justify-content: center;
+}
+.div-link a{
+  background-color: #E61C5D;
+  padding: 14px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #ffffff;
 }
