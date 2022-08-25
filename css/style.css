@@ -331,3 +331,47 @@ header a {
   text-decoration: none;
   color: #ffffff;
 }
+.div-flexx p{
+  margin: 10px 0;
+}
+footer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+.container-flexx{
+  display: flex;
+  max-width: 1200px;
+  justify-content: space-between;
+  gap: 80px;
+}
+.blockk{
+  display: grid;
+}
+.blockk h3{
+  font-size: 1.2rem;
+}
+.blockk a{
+  margin-top: 20px;
+  text-decoration: none;
+  color: #112B3C;
+}
+.input-email{
+  padding: 10px;
+  width: 180px;
+}
+.div-btn{
+  height: 36px;
+  width: 36px;
+  background-color: #E61C5D;
+}
+.div-btn img{
+  width: 30px;
+  height: 30px;
+  max-width: 100%;
+}
+.div-inputbtn{
+  display: flex;
+  align-items: center;
+}
